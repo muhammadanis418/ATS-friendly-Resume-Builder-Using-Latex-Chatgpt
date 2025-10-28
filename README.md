@@ -1,6 +1,6 @@
 # 🚀 The 4-Step Process
 
-Here is the simple workflow we will follow to get your resume ready.
+Here is the simple workflow we will follow to get resume ready.
 
 ---
 
