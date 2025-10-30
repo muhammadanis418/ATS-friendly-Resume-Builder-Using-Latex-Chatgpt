@@ -243,3 +243,23 @@ Backend engineer experienced in developing scalable RESTful APIs using Spring Bo
       \resumeItemListEnd
 \resumeSubHeadingListEnd
 -->
+
+### Step 3: Compile Your Resume on Overleaf
+Now we turn that code into a beautiful PDF.
+
+- 🟢 Go to https://www.overleaf.com/.
+- 🔵 Click "Register" and sign in with your Google account (it's free).
+- 🟡 On your dashboard, click New Project > Blank Project.
+- 🟣 Name your project (e.g., "My Resume").
+- 🔴 You'll see a file named main.tex. Delete all the text inside it.
+- 📋 Paste the full LaTeX code you got from ChatGPT into this empty main.tex file.
+- ❇️ Click the green "Recompile" button (or press Ctrl+S).
+### Step 4: Download Your Finished Resume!
+- 🎉 On the right side of the screen, you will see your perfectly formatted, one-page resume.
+- ⬇️ Click the "Download PDF" button (it looks like a down-arrow).
+- That's it! You now have a professional, ATS-friendly resume ready to send to recruiters.
+
+### 👍 Found this helpful?
+If this video and guide helped you, please:
+
+- Star this repository ⭐️
