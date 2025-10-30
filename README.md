@@ -28,7 +28,7 @@ Open a simple text file (like Notepad) and write down your details following thi
 - **Projects:** Your most important projects with 2–3 bullet points each.  
 - **Education:** Your degree, university, and graduation year.  
 - **Achievements & Certifications:** (e.g., Hackathons, Google Certificates).  
-- **Languages:** (e.g., English, Hindi).
+- **Languages:** (English).
 
 > 💡 Tip: Once you have your data ready, we’ll move on to formatting it into a professional, ATS-friendly resume.
 
