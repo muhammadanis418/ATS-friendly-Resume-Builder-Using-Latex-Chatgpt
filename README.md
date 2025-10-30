@@ -126,85 +126,120 @@ This is the **most important step**. We will ask ChatGPT to write the LaTeX code
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
-\begin{document}
 
 %----------HEADING----------
+\begin{document}
 \begin{center}
-    {\Huge \scshape Vinay Kumar} \\ \vspace{4pt}
-    \textbf{\Large \scshape Full Stack Developer} \\ \vspace{4pt}
-    \small \faPhone\ +91-9919XXXXXX ~ 
-    \href{mailto:advindiancoder@gmail.com}{\faEnvelope\ \underline{advindiancoder@gmail.com}} ~ 
-    \href{https://www.linkedin.com/in/vinay-kumar860964/}{\faLinkedin\ \underline{linkedin.com/in/vinay-kumar860964}} 
+{\Huge \scshape Muhammad Anis} \\ \vspace{3pt}
+Backend Engineer (Java) \\ \vspace{3pt}
+\small \faMapMarker*~ Islamabad, Pakistan ~|~ 
+\faPhone~ +92-331-5942715 ~|~
+\href{mailto:anis16734@gmail.com}{\faEnvelope~ anis16734@gmail.com} ~|~
+\href{https://www.linkedin.com/in/muhammadaaanis/}{\faLinkedin~ linkedin.com/in/muhammadaaanis} ~|~
+\href{https://github.com/muhammadanis418}{\faGithub~ github.com/muhammadanis418}
 \end{center}
 
 %-----------SUMMARY-----------
 \section{Summary}
-Versatile and detail-oriented \textbf{Full Stack Developer} skilled in designing and deploying end-to-end web applications using Java, Spring Boot, React.js, and MySQL. Demonstrated expertise in RESTful API development, performance tuning, and scalable architecture. Passionate about clean code, open-source collaboration, and mentoring budding developers through technical content creation.
+Backend engineer experienced in developing scalable RESTful APIs using Spring Boot. Strong in backend architecture, data performance, and problem solving. Currently expanding expertise in Cloud Deployment and CI/CD to deliver efficient, production-ready systems.
 
 %-----------SKILLS-----------
-\section{Skills}
+\section{Technical Skills}
 \resumeItemListStart
-  \resumeItem{\textbf{Frontend:} HTML5, CSS3, JavaScript (ES6+), React.js, Bootstrap, Tailwind CSS}
-  \resumeItem{\textbf{Backend:} Java, Spring Boot, Hibernate, J2EE, JDBC, Servlets, REST API}
-  \resumeItem{\textbf{Database:} MySQL, MongoDB}
-  \resumeItem{\textbf{Tools \& Platforms:} Git, GitHub, Maven, Postman, Docker, IntelliJ IDEA, VS Code}
-  \resumeItem{\textbf{Concepts:} OOP, MVC, Microservices, API Integration, Agile Development}
+\resumeItem{Frameworks: Spring Boot, Spring MVC, Hibernate, JPA, J2EE}
+\resumeItem{Databases: PostgreSQL, MongoDB, Redis}
+\resumeItem{Languages: Java, SQL, JavaScript}
+\resumeItem{Messaging: RabbitMQ, Kafka (basic)}
+\resumeItem{Tools: Git, Maven, Swagger, Postman, Docker, IntelliJ IDEA, VS Code}
+\resumeItem{Concepts: Microservices, RESTful APIs, OOP, Agile Development}
 \resumeItemListEnd
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{Professional Experience}
 \resumeSubHeadingListStart
-  \resumeSubheading
-    {Founder \& CEO — ADV SparkTech}{Aug 2023 -- Apr 2025}
-    {Bengaluru, India}{}
-    \resumeItemListStart
-      \resumeItem{Developed and deployed multiple full-stack applications integrating REST APIs with MySQL databases.}
-      \resumeItem{Led a 4-member developer team to deliver enterprise-grade projects with 35\% improved delivery speed.}
-      \resumeItem{Mentored interns in Java and Spring Boot; improved project quality through peer code reviews.}
-    \resumeItemListEnd
 
-  \resumeSubheading
-    {Full Stack Developer Intern — Inoglle (Part-Time)}{Jan 2024 -- Jul 2024}
-    {Remote}{}
-    \resumeItemListStart
-      \resumeItem{Designed and implemented REST APIs in Spring Boot with JWT authentication and role-based access.}
-      \resumeItem{Integrated React.js frontend with backend services, achieving 97\% uptime and responsive UX.}
-      \resumeItem{Optimized MySQL schema resulting in 20\% faster query performance.}
-    \resumeItemListEnd
+\resumeSubheading
+{Ciklum}{Dec 2024 -- Present}
+{Software Engineer}{Islamabad, Pakistan}
+\resumeItemListStart
+\resumeItem{Developing and refactoring Java-based vessel management modules for better performance and maintainability.}
+% \resumeItem{Integrated Redis caching for fleet data to reduce DB calls and improve response time for multi-vessel datasets.}
+\resumeItem{Integrated Redis caching for multi-vessel fleet data, cutting database load by 40 percent and reducing response times from seconds to milliseconds.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Target Technologies}{Jan 2024 -- Nov 2024}
+{Backend Engineer (Java)}{Islamabad, Pakistan}
+\resumeItemListStart
+\resumeItem{Delivered features for Well \& Seismic data platform used by the Oman government.}
+\resumeItem{Generated dynamic PDF reports using iTextPDF and optimized dashboard modules.}
+\resumeItem{Configured Spring Cloud Eureka Server for service discovery in microservice architecture.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rockville Technologies}{Jul 2022 -- Dec 2023}
+{Junior Java Developer}{Islamabad, Pakistan}
+\resumeItemListStart
+\resumeItem{Enhanced APIs for Bajao music platform and contributed to Cellcard Music and UTunes services.}
+\resumeItem{Built SMS handler pushing notifications via RabbitMQ to improve message delivery reliability.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Aksa SDS}{Dec 2021 -- Jun 2022}
+{Java Intern}{Islamabad, Pakistan}
+\resumeItemListStart
+\resumeItem{Developed background automation tasks and CRUD APIs using Spring Boot.}
+\resumeItem{Create an Address book application to demonstrate backend flow and data persistence.}
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
-\section{Projects}
-\resumeSubHeadingListStart
-  \resumeProjectHeading
-    {\textbf{E-Commerce Platform (Spring Boot + React.js + MySQL)}}{2024}
-    \resumeItemListStart
-      \resumeItem{Developed a full-stack online shopping system supporting user authentication, cart management, and secure payments.}
-      \resumeItem{Optimized REST APIs for scalability, reducing latency by 25\%.}
-    \resumeItemListEnd
 
-  \resumeProjectHeading
-    {\textbf{Student Management System (Java + JDBC + MySQL)}}{2023}
-    \resumeItemListStart
-      \resumeItem{Built CRUD-based application managing student data and grades with secure authentication.}
-      \resumeItem{Applied normalization and indexing for faster query retrieval.}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-%-----------AWARDS & CERTIFICATIONS-----------
-\section{Awards \& Certifications}
-\resumeItemListStart
-  \resumeItem{Microsoft Office 365 Productivity Suite (Advanced Level) — Naan Mudhalvan, 2022}
-  \resumeItem{Top 5\% Global Designer on Canva — 2024}
-  \resumeItem{Mock Technical Interview Score: 8.89/10 — 2024}
-\resumeItemListEnd
 
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
-  \resumeSubheading
-    {B.Tech in Information Technology}{Expected: 2025}
-    {Dhaanish Ahmed College of Engineering (Anna University)}{CGPA: 8.2 / 10}
+\resumeSubheading
+{COMSATS University}{Sep 2015 -- Jun 2019}
+{B.Sc. Software Engineering}{}
 \resumeSubHeadingListEnd
 
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\resumeItemListStart
+\resumeItem{Completed Web Engineering Bootcamp (Java) by Softoo Pvt. Ltd. (PASHA \& PSEB, 2022).}
+\resumeItem{Received Benevolent Scholarship for academic excellence (2015–2019).}
+\resumeItemListEnd
+
+%-----------LANGUAGES-----------
+\section{Languages}
+\resumeItemListStart
+\resumeItem{English (Intermediate Proficiency)}
+\resumeItem{Urdu (Native Proficiency)}
+\resumeItemListEnd
+
 \end{document}
+```
+<!--
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{Customer Churn Analysis} $|$ \emph{Python }}{March 2025 -- April 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Analyzed behavior of 7,043 telecom customers} to identify churn patterns.}
+        \resumeItem{Engineered new features including contract type buckets and tenure bands.}
+        \resumeItem{Generated 11 visualizations to highlight churn-prone segments.}
+        \resumeItem{Found 38\% of churned users were monthly-contract customers.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{Sales Dashboard for Regional Performance} $|$ \emph{SQL, Power BI}}{February 2025 -- March 2025}
+      \resumeItemListStart
+        \resumeItem{Queried and joined 25,000+ rows of sales data using optimized SQL joins.}
+        \resumeItem{Built KPIs and dynamic measures in Power BI.}
+        \resumeItem{Designed multi-page dashboards with drill-down insights.}
+        \resumeItem{Identified 14\% post-festival sales drop and recommended fixes.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+-->
